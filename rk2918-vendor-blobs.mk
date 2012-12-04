@@ -30,14 +30,15 @@ PRODUCT_COPY_FILES += \
   vendor/rockchip/rk2918/proprietary/lib/libril-rk29-dataonly.so:system/lib/libril-rk29-dataonly.so \
   vendor/rockchip/rk2918/proprietary/lib/librkswscale.so:system/lib/librkswscale.so \
   vendor/rockchip/rk2918/proprietary/lib/librkwmapro.so:system/lib/librkwmapro.so \
-  vendor/rockchip/rk2918/proprietary/lib/libstagefright.so:system/lib/libstagefright.so \
-  vendor/rockchip/rk2918/proprietary/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
   vendor/rockchip/rk2918/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
   vendor/rockchip/rk2918/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
   vendor/rockchip/rk2918/proprietary/lib/libvpu.so:system/lib/libvpu.so \
   vendor/rockchip/rk2918/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so \
   vendor/rockchip/rk2918/proprietary/lib/registry:system/lib/registry \
-  #vendor/rockchip/rk2918/proprietary/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \
+  
+#vendor/rockchip/rk2918/proprietary/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so
+#vendor/rockchip/rk2918/proprietary/lib/libstagefright.so:system/lib/libstagefright.so \
+#vendor/rockchip/rk2918/proprietary/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
 
 #usb firms
 PRODUCT_COPY_FILES += \
