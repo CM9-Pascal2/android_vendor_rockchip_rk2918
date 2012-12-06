@@ -21,24 +21,22 @@ PRODUCT_COPY_FILES += \
   vendor/rockchip/rk2918/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
   vendor/rockchip/rk2918/proprietary/lib/libUMP.so:system/lib/libUMP.so \
   vendor/rockchip/rk2918/proprietary/lib/libapedec.so:system/lib/libapedec.so \
-  vendor/rockchip/rk2918/proprietary/lib/libhtml5_check.so:system/lib/libhtml5_check.so \
   vendor/rockchip/rk2918/proprietary/lib/libion.so:system/lib/libion.so \
   vendor/rockchip/rk2918/proprietary/lib/libjpeghwdec.so:system/lib/libjpeghwdec.so \
   vendor/rockchip/rk2918/proprietary/lib/libjpeghwenc.so:system/lib/libjpeghwenc.so \
   vendor/rockchip/rk2918/proprietary/lib/libomxvpu.so:system/lib/libomxvpu.so \
   vendor/rockchip/rk2918/proprietary/lib/libomxvpu_enc.so:system/lib/libomxvpu_enc.so \
-  vendor/rockchip/rk2918/proprietary/lib/libril-rk29-dataonly.so:system/lib/libril-rk29-dataonly.so \
   vendor/rockchip/rk2918/proprietary/lib/librkswscale.so:system/lib/librkswscale.so \
   vendor/rockchip/rk2918/proprietary/lib/librkwmapro.so:system/lib/librkwmapro.so \
-  vendor/rockchip/rk2918/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-  vendor/rockchip/rk2918/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
   vendor/rockchip/rk2918/proprietary/lib/libvpu.so:system/lib/libvpu.so \
   vendor/rockchip/rk2918/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so \
-  vendor/rockchip/rk2918/proprietary/lib/registry:system/lib/registry \
   
 #vendor/rockchip/rk2918/proprietary/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so
 #vendor/rockchip/rk2918/proprietary/lib/libstagefright.so:system/lib/libstagefright.so \
 #vendor/rockchip/rk2918/proprietary/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
+#vendor/rockchip/rk2918/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so 
+#vendor/rockchip/rk2918/proprietary/lib/libril-rk29-dataonly.so:system/lib/libril-rk29-dataonly.so \
+#vendor/rockchip/rk2918/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
 
 #usb firms
 PRODUCT_COPY_FILES += \
@@ -80,7 +78,6 @@ PRODUCT_COPY_FILES += \
 #EGL 
 PRODUCT_COPY_FILES += \
   vendor/rockchip/rk2918/proprietary/lib/egl/libEGL_VIVANTE.so:system/lib/egl/libEGL_VIVANTE.so \
-  vendor/rockchip/rk2918/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
   vendor/rockchip/rk2918/proprietary/lib/egl/libGLESv1_CM_VIVANTE.so:system/lib/egl/libGLESv1_CM_VIVANTE.so \
   vendor/rockchip/rk2918/proprietary/lib/egl/libGLESv2_VIVANTE.so:system/lib/egl/libGLESv2_VIVANTE.so \
 #Bin
@@ -95,5 +92,3 @@ PRODUCT_COPY_FILES += \
   vendor/rockchip/rk2918/proprietary/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe \
   vendor/rockchip/rk2918/proprietary/bin/performance:system/bin/performance \
   vendor/rockchip/rk2918/proprietary/bin/vdc:system/bin/vdc \
-  vendor/rockchip/rk2918/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
-  vendor/rockchip/rk2918/proprietary/bin/vold:system/bin/vold
