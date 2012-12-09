@@ -68,13 +68,16 @@ PRODUCT_COPY_FILES += \
 
 #Hal 
 PRODUCT_COPY_FILES += \
-  vendor/rockchip/rk2918/proprietary/lib/hw/audio.primary.rk29board.so:system/lib/hw/audio.primary.rk29board.so \
-  vendor/rockchip/rk2918/proprietary/lib/hw/audio_policy.rk29board.so:system/lib/hw/audio_policy.rk29board.so \
-  vendor/rockchip/rk2918/proprietary/lib/hw/camera.rk29board.so:system/lib/hw/camera.rk29board.so \
   vendor/rockchip/rk2918/proprietary/lib/hw/copybit.rk29board.so:system/lib/hw/copybit.rk29board.so \
   vendor/rockchip/rk2918/proprietary/lib/hw/gralloc.rk29board.so:system/lib/hw/gralloc.rk29board.so \
   vendor/rockchip/rk2918/proprietary/lib/hw/lights.rk29board.so:system/lib/hw/lights.rk29board.so \
   vendor/rockchip/rk2918/proprietary/lib/hw/sensors.rk29board.so:system/lib/hw/sensors.rk29board.so \
+  vendor/rockchip/rk2918/proprietary/lib/hw/camera.rk29board.so:system/lib/hw/camera.rk29board.so \
+
+#vendor/rockchip/rk2918/proprietary/lib/hw/audio.primary.rk29board.so:system/lib/hw/audio.primary.rk29board.so \
+#vendor/rockchip/rk2918/proprietary/lib/hw/audio_policy.rk29board.so:system/lib/hw/audio_policy.rk29board.so \
+#vendor/rockchip/rk2918/proprietary/lib/hw/camera.rk29board.so:system/lib/hw/camera.rk29board.so \
+
 #EGL 
 PRODUCT_COPY_FILES += \
   vendor/rockchip/rk2918/proprietary/lib/egl/libEGL_VIVANTE.so:system/lib/egl/libEGL_VIVANTE.so \
@@ -92,3 +95,4 @@ PRODUCT_COPY_FILES += \
   vendor/rockchip/rk2918/proprietary/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe \
   vendor/rockchip/rk2918/proprietary/bin/performance:system/bin/performance \
   vendor/rockchip/rk2918/proprietary/bin/vdc:system/bin/vdc \
+  vendor/rockchip/rk2918/proprietary/bin/vold:system/bin/vold \
